@@ -1,0 +1,53 @@
+{
+    "name": "Mix Dj Radio",
+    "subtitle": "Stream mixes, tracks & live radio.",
+    "description": "The official Mix Dj Radio source. Install and update Mix Dj Radio directly through AltStore.",
+    "iconURL": "https://github.com/wv-web-developers/mixdjradioios/blob/main/mixdjradio-icon.png",
+    "headerURL": "https://github.com/wv-web-developers/mixdjradioios/blob/main/mixdjradio-header.jpg",
+    "website": "https://mixdjradio.com",
+    "tintColor": "#40356F",
+    "featuredApps": [
+        "com.mixdjradio.app"
+    ],
+    "apps": [
+        {
+            "name": "Mix Dj Radio",
+            "bundleIdentifier": "com.mixdjradio.app",
+            "developerName": "Chathouse LLC",
+            "subtitle": "Stream mixes, tracks & live radio.",
+            "localizedDescription": "Mix Dj Radio lets you stream DJ mixes, tracks, compilations and live radio stations from around the world — anytime, anywhere.",
+            "iconURL": "https://github.com/wv-web-developers/mixdjradioios/blob/main/mixdjradio-icon.png",
+            "tintColor": "#40356F",
+            "screenshots": [
+                "https://github.com/wv-web-developers/mixdjradioios/blob/main/screenshots/01-home.png",
+                "https://github.com/wv-web-developers/mixdjradioios/blob/main/screenshots/02-radio.png",
+                "https://github.com/wv-web-developers/mixdjradioios/blob/main/screenshots/03-player.png"
+            ],
+            "versions": [
+                {
+                    "version": "3.0",
+                    "date": "2026-11-06T20:43:00-05:00",
+                    "size": 34439609,
+                    "downloadURL": "https://github.com/wv-web-developers/mixdjradioios/releases/download/v3.0/MixDjRadio-3.0-build30.ipa",
+                    "localizedDescription": "New Radio tab grouped by country, UI refresh, and stability fixes.",
+                    "minOSVersion": "15.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.applesignin",
+                    "aps-environment"
+                ],
+                "privacy": {
+                    "NSAppleMusicUsageDescription": "This application would access to your Music library in order to upload audios",
+                    "NSCameraUsageDescription": "This applications would like to access your camera in order to take pictures and video",
+                    "NSMicrophoneUsageDescription": "This application would like to access your microphone in order to record a vocal note",
+                    "NSPhotoLibraryUsageDescription": "This application would like to access your gallery in order to upload or take photos and video",
+                    "NSPhotoLibraryAddUsageDescription": "This application would like to access your gallery in order to save video and photos",
+                    "NSContactsUsageDescription": "This application would like to access your contacts in order to choose and send contact informations",
+                    "NSLocationWhenInUseUsageDescription": "This application would access your location while in use to show people near you"
+                }
+            }
+        }
+    ]
+}
